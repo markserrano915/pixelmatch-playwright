@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "latest backup"
+    "diff diff";
+  gap: 2rem;
+}
+
+.container > h2:nth-of-type(1) {
+  grid-area: header;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container > div:nth-of-type(1) {
+  grid-area: latest;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div:nth-of-type(2) {
+  grid-area: backup;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div:nth-of-type(3) {
+  grid-area: diff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container span {
+  text-align: center;
+  text-transform: lowercase;
+  padding: 1rem;
+}
+
