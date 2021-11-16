@@ -6,6 +6,9 @@ A demo app to grab screenshots and create diffs
 - Uses Pixelmatch to make image diffs
 - Uses Next.js for the web framework
 
+
+![server](public/assets/server.png)
+
 ## Prerequisites
 
 - Install [NVM](https://github.com/nvm-sh/nvm) to manage your Node versions
