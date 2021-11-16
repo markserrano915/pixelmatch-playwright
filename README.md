@@ -23,6 +23,8 @@ A demo app to grab screenshots and create diffs
 
 ## Grabbing Screenshots
 
+Note: For the purpose of this demo, the `.env` file is committed in the repo. Ideally it shouldn't be.
+
 1. Update the `E2E_URL` entry in the `.env` file with the desired URL entrypoint
 
 1. Run `npm run screengrab`
